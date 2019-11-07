@@ -22,6 +22,8 @@
 # Settings folder
 *.setting*
 
+.classpath
+
 # Project specific setting
 *.project
 
