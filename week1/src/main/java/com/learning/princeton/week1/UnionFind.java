@@ -1,13 +1,9 @@
 package com.learning.princeton.week1;
 
-public class UnionFind {
+public interface UnionFind {
 
 	
-	public boolean connected(int a, int b) {
-		return false;
-	}
+	public void connected(int a, int b);
 	
-	public void find(int a, int b) {
-		
-	}
+	public boolean find(int a, int b) ;
 }
