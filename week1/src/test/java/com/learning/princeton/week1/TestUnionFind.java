@@ -8,7 +8,7 @@ public class TestUnionFind {
 	
 	@Test
 	public void findTest() {
-		UnionFind uf = new QuickFind();
+		UnionFind uf = new QuickFind(10);
 		uf.connected(1, 2);
 		uf.connected(2, 3);
 		uf.connected(4, 5);

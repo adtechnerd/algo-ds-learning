@@ -11,7 +11,7 @@ package com.learning.princeton.week1;
 public class UnionFindClient {
 
 	public static void main(String[] args) {
-		UnionFind uf = new QuickFind();
+		UnionFind uf = new QuickFind(10);
 		
 	}
 }
