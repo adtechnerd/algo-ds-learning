@@ -27,6 +27,7 @@ public class UnionFindClient {
 				String pointPair = in.nextLine();
 				int a = Integer.parseInt(pointPair.split(" ")[0]);
 				int b = Integer.parseInt(pointPair.split(" ")[1]);
+				System.out.println("a "+a +" b " + b);
 				uf.connected(a, b);
 			}
 			in.close();

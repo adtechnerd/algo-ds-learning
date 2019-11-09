@@ -21,12 +21,17 @@ public class QuickFind implements UnionFind {
 
 	public void connected(int a, int b) {
 		// TODO Auto-generated method stub
+		for(int i=0; i<internal.length; i++) {
+			if(internal[i] == a) {
+				internal[i] = b;
+			}
+		}
 
 	}
 
 	public boolean find(int a, int b) {
 		// TODO Auto-generated method stub
-		return false;
+		return internal[a] == internal[b];
 	}
 
 }
