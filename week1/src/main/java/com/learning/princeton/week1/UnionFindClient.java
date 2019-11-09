@@ -32,6 +32,13 @@ public class UnionFindClient {
 			}
 			in.close();
 			
+			int a = 2;
+			int b = 6;
+			System.out.println("find: a: "+a+" b: "+b + " connected "+uf.find(a, b));
+
+			a = 1;
+			b = 4;
+			System.out.println("find: a: "+a+" b: "+b + " connected "+uf.find(a, b));
 			
 		} catch (FileNotFoundException e) {
 			e.printStackTrace();
